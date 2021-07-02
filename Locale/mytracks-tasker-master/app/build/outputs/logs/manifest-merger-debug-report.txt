@@ -1,0 +1,88 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [:locale] D:\Temp\Test_android\Locale\mytracks-tasker-master\locale\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-13:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:5:5-34
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+uses-permission#com.google.android.apps.mytracks.WRITE_TRACK_DATA
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:9:5-89
+	android:name
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:9:22-86
+uses-permission#com.google.android.apps.mytracks.READ_TRACK_DATA
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:10:5-88
+	android:name
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:10:22-85
+application
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:12:5-37:19
+MERGED from [:locale] D:\Temp\Test_android\Locale\mytracks-tasker-master\locale\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-20
+MERGED from [:locale] D:\Temp\Test_android\Locale\mytracks-tasker-master\locale\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:13:9-45
+service#com.greenesse.mytracksplugin.BroadcastExecutiveService
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:18:3-81
+	android:exported
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:18:54-78
+	android:name
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:18:12-53
+activity#com.greenesse.mytracksplugin.EditActivity
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:label
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:23:13-49
+	android:icon
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:24:13-49
+	android:theme
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:25:13-47
+	android:name
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:22:13-41
+intent-filter#action:name:com.twofortyfouram.locale.intent.action.EDIT_SETTING
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:26:13-28:29
+action#com.twofortyfouram.locale.intent.action.EDIT_SETTING
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:27:17-95
+	android:name
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:27:25-92
+receiver#com.greenesse.mytracksplugin.FireReceiver
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:32:9-36:20
+	android:name
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:32:19-47
+intent-filter#action:name:com.twofortyfouram.locale.intent.action.FIRE_SETTING
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:33:13-35:29
+action#com.twofortyfouram.locale.intent.action.FIRE_SETTING
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:34:17-95
+	android:name
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml:34:25-92
+uses-sdk
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+MERGED from [:locale] D:\Temp\Test_android\Locale\mytracks-tasker-master\locale\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:locale] D:\Temp\Test_android\Locale\mytracks-tasker-master\locale\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\app\src\main\AndroidManifest.xml

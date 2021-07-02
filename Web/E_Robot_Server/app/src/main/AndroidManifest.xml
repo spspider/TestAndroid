@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a1.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        </activity>
+
+
+        <!--
+            This is the "edit" Activity. The mdpi icon should be 32x32. The hdpi icon should be
+            48x48. Locale will scale the icons if necessary, but providing pre-scaled versions will
+            improve quality and performance.
+        -->
+        <activity
+            android:name=".locale.EditActivity"
+            android:label="@string/plugin_name"
+            >
+            <!-- this Intent filter allows the plug-in to be discovered by Locale -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <category
+                    android:name="android.intent.category.INFO" />
+                <action
+                    android:name="com.twofortyfouram.locale.intent.action.EDIT_CONDITION" />
+            </intent-filter>
+        </activity>
+        <!-- This is the "query" BroadcastReceiver -->
+        <receiver
+            android:name=".locale.QueryReceiver_http"
+            >
+            <!-- this Intent filter allows the plug-in to be queried -->
+            <intent-filter>
+                <action
+                    android:name="com.twofortyfouram.locale.intent.action.QUERY_CONDITION" />
+            </intent-filter>
+        </receiver>
+        <!--
+            Don't know if we need this right now. It'll be useful when the functionality to scan every X minutes is implemented.
+        -->
+        <service
+            android:name=".locale.BackgroundService_httpd">
+        </service>
+    </application>
+
+</manifest>

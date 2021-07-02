@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.0'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        minSdkVersion 10
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+//            runProguard false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'org.fusesource.mqtt-client:mqtt-client:1.6@jar'
+    compile 'org.fusesource.hawtbuf:hawtbuf:1.9@jar'
+    compile 'org.fusesource.hawtdispatch:hawtdispatch:1.18@jar'
+    compile 'org.fusesource.hawtdispatch:hawtdispatch-transport:1.18@jar'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.android.support:support-v4:22.0.0'
+    compile files('libs/paho-mqtt-client-1.0.1.jar')
+}

@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add"
+        android:showAsAction="never"
+        android:title="Add" />
+    
+    <item
+        android:id="@+id/remove"
+        android:showAsAction="never"
+        android:title="Remove" />
+    
+    <item
+        android:id="@+id/replace"
+        android:showAsAction="never"
+        android:title="Replace" />
+    
+    <item
+        android:id="@+id/lock"
+        android:showAsAction="never"
+        android:title="Lock" />
+    
+    <item
+        android:id="@+id/log"
+        android:showAsAction="never"
+        android:title="Log" />
+
+</menu>

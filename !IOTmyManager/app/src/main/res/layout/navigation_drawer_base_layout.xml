@@ -1,0 +1,53 @@
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- The main content view -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Activitys.BaseActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/Widget.MyApp.ActionBar"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"/>
+
+<!--
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeContainer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:context=".Activitys.BaseActivity"
+            tools:ignore="MergeRootFrame"
+            >
+           -->
+        <include layout="@layout/content_main" />
+    <!--
+    </android.support.v4.widget.SwipeRefreshLayout>
+    -->
+    </LinearLayout>
+
+    <!-- The navigation drawer -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:itemIconTint="@android:color/black"
+        app:headerLayout="@layout/drawer_header"
+        app:menu="@menu/menu_drawer"/>
+</android.support.v4.widget.DrawerLayout>
+
+
+

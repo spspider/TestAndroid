@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sencondFragmentTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Device List"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        <!--    <AutoCompleteTextView
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+ -->
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+            <ListView
+                android:id="@+id/deviceListView"
+                android:layout_width="match_parent"
+                android:layout_height="330dp" >
+            </ListView>
+
+            <GridLayout
+                android:id="@+id/gridLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/buttonCommand"
+                android:layout_alignLeft="@+id/buttonCommand"
+                android:layout_alignRight="@+id/buttonCommand"
+                android:layout_below="@+id/deviceListView"
+                android:columnCount="2"
+                android:rowCount="7" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_column="0"
+                    android:layout_gravity="left|top"
+                    android:layout_row="0"
+                    android:text="Name" />
+
+                <EditText
+                    android:id="@+id/editTextName"
+                    android:layout_column="1"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_row="0"
+                    android:ems="10" >
+
+                    <requestFocus />
+                </EditText>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_column="0"
+                    android:layout_gravity="left|top"
+                    android:layout_row="1"
+                    android:text="Period" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_column="0"
+                    android:layout_gravity="left|top"
+                    android:layout_row="2"
+                    android:text="Condition" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_column="0"
+                    android:layout_gravity="left|top"
+                    android:layout_row="3"
+                    android:text="Action" />
+
+                <EditText
+                    android:id="@+id/editTextPeriod"
+                    android:layout_column="1"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_row="1"
+                    android:ems="10" />
+
+                <EditText
+                    android:id="@+id/editTextCondition"
+                    android:layout_column="1"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_row="2"
+                    android:ems="10" />
+
+                <EditText
+                    android:id="@+id/editTextAction"
+                    android:layout_column="1"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_row="3"
+                    android:ems="10" />
+            </GridLayout>
+
+            <Button
+                android:id="@+id/buttonCommand"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Send" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonRefresh"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="R" />
+
+</RelativeLayout>

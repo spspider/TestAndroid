@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:17:1-33:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:17:1-33:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:17:1-33:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:17:1-33:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:17:1-33:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:17:1-33:12
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:17:1-33:12
+	package
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:18:3-49
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:20:3-28
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:17:11-69
+	android:versionCode
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:19:3-26
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+application
+ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:28:3-31:17
+	android:label
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:30:5-37
+	android:icon
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml:29:5-51
+uses-sdk
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+		ADDED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml
+		INJECTED from D:\Temp\Test_android\Locale\mytracks-tasker-master\myTracksLib\src\main\AndroidManifest.xml

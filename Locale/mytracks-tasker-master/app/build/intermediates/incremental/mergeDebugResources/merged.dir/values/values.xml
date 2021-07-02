@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <item name="twofortyfouram_locale_menu_dontsave" type="id"/>
+    <item name="twofortyfouram_locale_menu_help" type="id"/>
+    <item name="twofortyfouram_locale_menu_save" type="id"/>
+    <string name="app_name">MyTracks Tasker/Locale Plugin</string>
+    <string name="broadcast_notifications_permission">com.google.android.apps.mytracks.TRACK_NOTIFICATIONS</string>
+    <string name="help_text">Choose whether you want the plugin to start or stop a MyTracks recording when it gets invoked by Tasker or Locale.\n\nIMPORTANT: In order for this plugin to work, you must go to Menu->More->Settings->Sharing in My Tracks and choose to Allow access to other applications.</string>
+    <string name="lib_name">My Tracks Base Library</string>
+    <string name="mytracks_service_class">com.google.android.apps.mytracks.services.TrackRecordingService</string>
+    <string name="mytracks_service_package">com.google.android.maps.mytracks</string>
+    <string name="read_track_data_permission">com.google.android.apps.mytracks.READ_TRACK_DATA</string>
+    <string name="setting_name">MyTracks Recording</string>
+    <string name="start_recording_blurb">Start recording</string>
+    <string name="start_recording_label">Start recording</string>
+    <string name="stop_recording_blurb">Stop recording</string>
+    <string name="stop_recording_label">Stop recording</string>
+    <string name="track_id_broadcast_extra">com.google.android.apps.mytracks.TRACK_ID</string>
+    <string name="track_paused_broadcast_action">com.google.android.apps.mytracks.TRACK_PAUSED</string>
+    <string name="track_resumed_broadcast_action">com.google.android.apps.mytracks.TRACK_RESUMED</string>
+    <string name="track_started_broadcast_action">com.google.android.apps.mytracks.TRACK_STARTED</string>
+    <string name="track_stopped_broadcast_action">com.google.android.apps.mytracks.TRACK_STOPPED</string>
+    <string name="track_update_broadcast_action">com.google.android.apps.mytracks.TRACK_UPDATE</string>
+    <string name="twofortyfouram_locale_breadcrumb_format" ns1:ignore="UnusedResources">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator" ns1:ignore="UnusedResources">\u0020>\u0020</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Cancel</string>
+    <string name="twofortyfouram_locale_menu_help">Help</string>
+    <string name="twofortyfouram_locale_menu_save">Done</string>
+    <string name="write_track_data_permission">com.google.android.apps.mytracks.WRITE_TRACK_DATA</string>
+    <style name="NoActionBar" parent="@android:style/Theme">
+        <!-- Inherits the default theme for pre-HC (no action bar) -->
+    </style>
+    <style name="Theme.Locale.Dark" parent="android:Theme"/>
+    <style name="Theme.Locale.Dialog" parent="@android:style/Theme.Translucent.NoTitleBar"/>
+    <style name="Theme.Locale.Light" parent="android:Theme.Light"/>
+</resources>

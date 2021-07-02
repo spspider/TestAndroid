@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidStreamable</string>
+    <string name="see_log">See the console log</string>
+</resources>

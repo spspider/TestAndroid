@@ -1,0 +1,14 @@
+org.johanhil.ssid
+drawable icon_app
+drawable icon_plugin
+id frame
+id ssid
+layout main
+string app_name
+string plugin_dialog_install
+string plugin_dialog_market_not_available
+string plugin_dialog_need_locale_informative
+string plugin_dialog_need_locale_message
+string plugin_dialog_title
+string plugin_name
+string ssid

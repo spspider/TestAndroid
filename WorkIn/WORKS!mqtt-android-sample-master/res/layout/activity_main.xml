@@ -1,0 +1,188 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:cursorVisible="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Server" />
+
+    <EditText
+        android:id="@+id/editLoginText"
+        android:cursorVisible="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/serverText"
+        android:layout_below="@+id/serverText"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:hint="login"
+        android:text="spspider">
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/editPasswordText"
+        android:cursorVisible="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editLoginText"
+        android:layout_below="@+id/editLoginText"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:hint="password"
+        android:text="5506487">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/connectButton2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/connectButton"
+        android:layout_below="@+id/connectButton"
+        android:layout_marginTop="0dp"
+        android:text="connect and send" />
+    <Button
+        android:id="@+id/connectButton3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/connectButton2"
+        android:layout_below="@+id/connectButton2"
+        android:layout_marginTop="0dp"
+        android:text="Push"
+        android:layout_alignRight="@+id/connectButton2"
+        android:layout_alignEnd="@+id/connectButton2" />
+    <Button
+        android:id="@+id/sendButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/serverText"
+        android:layout_alignTop="@+id/connectButton"
+        android:enabled="true"
+        android:text="Send" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:text="resultText"
+        android:cursorVisible="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/connectButton2"
+        android:layout_alignBottom="@+id/connectButton2"
+        android:layout_toRightOf="@+id/connectButton2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="OnStrart(D)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connectButton3"
+        android:layout_alignLeft="@+id/connectButton3"
+        android:layout_alignStart="@+id/connectButton3"
+        android:id="@+id/onStart"
+        android:textSize="14sp"
+        android:layout_alignRight="@+id/connectButton3"
+        android:layout_alignEnd="@+id/connectButton3" />
+
+    <Button
+        android:id="@+id/connectButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:layout_below="@+id/editPasswordText"
+        android:layout_alignLeft="@+id/editPasswordText"
+        android:layout_alignStart="@+id/editPasswordText" />
+
+    <EditText
+        android:id="@+id/serverText"
+        android:cursorVisible="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="server"
+        android:text="m20.cloudmqtt.com"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editPort"
+        android:cursorVisible="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="port"
+        android:text="16238"
+        android:layout_alignBaseline="@+id/serverText"
+        android:layout_alignBottom="@+id/serverText"
+        android:layout_toRightOf="@+id/editLoginText"
+        android:layout_toEndOf="@+id/editLoginText">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="hello"
+        android:ems="10"
+        android:layout_alignBottom="@+id/onStart"
+        android:id="@+id/SubscrText"
+        android:layout_toLeftOf="@+id/buttonSubscribe"
+        android:layout_toRightOf="@+id/onStart"
+        android:layout_toEndOf="@+id/onStart" />
+
+    <Button
+        android:text="S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSubscribe"
+        android:layout_alignBaseline="@+id/onStart"
+        android:layout_alignBottom="@+id/onStart"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="P"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/onStart"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/publish_btn"
+        android:layout_alignLeft="@+id/buttonSubscribe"
+        android:layout_alignStart="@+id/buttonSubscribe" />
+
+    <Button
+        android:text="Stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSubscribe"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btn_stop"
+        android:layout_toLeftOf="@+id/SubscrText"
+        android:layout_toStartOf="@+id/SubscrText" />
+
+</RelativeLayout>

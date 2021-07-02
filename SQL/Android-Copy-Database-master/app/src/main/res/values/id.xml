@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Shayan Rais (http://shanraisshan.com) -->
+<resources>
+
+    <item type="id" name="recycler_view">false</item>
+
+    <!-- toolbar -->
+    <item type="id" name="toolbar_activity_1">false</item>
+
+</resources>

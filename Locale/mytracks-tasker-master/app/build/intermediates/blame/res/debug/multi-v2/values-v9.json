@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Temp\\Test_android\\Locale\\mytracks-tasker-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v9\\values-v9.xml",
+            "map": [
+                {
+                    "source": "D:\\Temp\\Test_android\\Locale\\mytracks-tasker-master\\locale\\build\\intermediates\\packaged_res\\debug\\values-v9\\values-v9.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endLines": "4,7",
+                        "endColumns": "12,12",
+                        "endOffsets": "207,363"
+                    }
+                }
+            ]
+        }
+    ]
+}

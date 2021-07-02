@@ -1,0 +1,37 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Temp\\Test_android\\Locale\\mytracks-tasker-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "D:\\Temp\\Test_android\\Locale\\mytracks-tasker-master\\locale\\build\\intermediates\\packaged_res\\debug\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,121,196",
+                        "endColumns": "65,74,72",
+                        "endOffsets": "116,191,264"
+                    },
+                    "to": {
+                        "startLines": "5,6,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "231,297,372",
+                        "endColumns": "65,74,72",
+                        "endOffsets": "292,367,440"
+                    }
+                },
+                {
+                    "source": "D:\\Temp\\Test_android\\Locale\\mytracks-tasker-master\\app\\src\\main\\res\\values-v11\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "226"
+                    }
+                }
+            ]
+        }
+    ]
+}

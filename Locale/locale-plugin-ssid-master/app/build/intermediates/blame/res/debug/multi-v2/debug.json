@@ -1,0 +1,153 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\build\\intermediates\\res\\merged\\debug\\values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\values-de\\strings_plugin.xml",
+                    "from": {
+                        "startLines": "5,8,7,6,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "292,723,505,355,221",
+                        "endColumns": "62,111,144,149,70",
+                        "endOffsets": "350,830,645,500,287"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,118,230,375,525",
+                        "endColumns": "62,111,144,149,70",
+                        "endOffsets": "113,225,370,520,591"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\build\\intermediates\\res\\merged\\debug\\values-nl_values-nl.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\values-nl\\strings_plugin.xml",
+                    "from": {
+                        "startLines": "5,8,7,6,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "291,646,509,352,221",
+                        "endColumns": "60,116,135,156,69",
+                        "endOffsets": "347,758,640,504,286"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,116,233,369,526",
+                        "endColumns": "60,116,135,156,69",
+                        "endOffsets": "111,228,364,521,591"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\build\\intermediates\\res\\merged\\debug\\values-fr_values-fr.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\values-fr\\strings_plugin.xml",
+                    "from": {
+                        "startLines": "5,8,7,6,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "290,721,507,350,221",
+                        "endColumns": "59,119,140,156,68",
+                        "endOffsets": "345,836,643,502,285"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,115,235,376,533",
+                        "endColumns": "59,119,140,156,68",
+                        "endOffsets": "110,230,371,528,597"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\build\\intermediates\\res\\merged\\debug\\values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\values-es\\strings_plugin.xml",
+                    "from": {
+                        "startLines": "5,8,7,6,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "293,707,498,352,221",
+                        "endColumns": "58,110,135,145,71",
+                        "endOffsets": "347,813,629,493,288"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,114,225,361,507",
+                        "endColumns": "58,110,135,145,71",
+                        "endOffsets": "109,220,356,502,574"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,112,157",
+                        "endColumns": "56,44,37",
+                        "endOffsets": "107,152,190"
+                    },
+                    "to": {
+                        "startLines": "2,8,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,626,671",
+                        "endColumns": "56,44,37",
+                        "endOffsets": "107,666,704"
+                    }
+                },
+                {
+                    "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\values\\strings_plugin.xml",
+                    "from": {
+                        "startLines": "5,8,7,6,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "292,701,501,350,221",
+                        "endColumns": "57,106,126,150,70",
+                        "endOffsets": "345,803,623,496,287"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "112,170,277,404,555",
+                        "endColumns": "57,106,126,150,70",
+                        "endOffsets": "165,272,399,550,621"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\build\\intermediates\\res\\merged\\debug\\values-sv_values-sv.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\values-sv\\strings_plugin.xml",
+                    "from": {
+                        "startLines": "5,8,7,6,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "289,636,496,350,221",
+                        "endColumns": "60,109,139,145,67",
+                        "endOffsets": "345,741,631,491,284"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,116,226,366,512",
+                        "endColumns": "60,109,139,145,67",
+                        "endOffsets": "111,221,361,507,575"
+                    }
+                }
+            ]
+        }
+    ]
+}

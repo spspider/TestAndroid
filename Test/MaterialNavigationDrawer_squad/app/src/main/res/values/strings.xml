@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FC Barcelona</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="navDrawerItems">
+        <item>Squad</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+        <item>Transfer Zone</item>
+        <item>Gallery</item>
+        <item>Connect</item>
+    </string-array>
+
+    <string-array name="navDrawerIcons">
+
+        <item>@drawable/squad</item>
+        <item>@drawable/fixtures</item>
+        <item>@drawable/table</item>
+        <item>@drawable/transfer</item>
+        <item>@drawable/gallery</item>
+        <item>@drawable/connect</item>
+
+
+    </string-array>
+
+
+</resources>

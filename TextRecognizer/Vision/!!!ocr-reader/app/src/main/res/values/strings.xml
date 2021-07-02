@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Нужен доступ к камере</string>
+    <string name="no_camera_permission">нет разрешения для камеры</string>
+    <string name="low_storage_error">Зависимости не могут быть загруены</string>
+    <string name="title_activity_main">Mars</string>
+    <string name="ocr_header">Нажми &quot;детект&quot;</string>
+    <string name="read_text">Детект</string>
+    <string name="auto_focus">Авто-фокус</string>
+    <string name="use_flash">исп всыпшку?</string>
+    <string name="ocr_success">норм</string>
+    <string name="ocr_failure">нет текста</string>
+    <string name="ocr_error">"ошибка: %1$s"</string>
+</resources>

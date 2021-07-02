@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:text="Button"
+        android:id="@+id/RecordSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whistleButton"
+        android:layout_alignLeft="@+id/whistleButton"
+        android:layout_alignStart="@+id/whistleButton"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/whistleButton"
+        android:layout_alignEnd="@+id/whistleButton" />
+
+    <Button
+        android:text="stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RecordSound"
+        android:layout_alignLeft="@+id/RecordSound"
+        android:layout_alignStart="@+id/RecordSound"
+        android:id="@+id/stopButton"
+        android:layout_alignRight="@+id/RecordSound"
+        android:layout_alignEnd="@+id/RecordSound" />
+
+    <Button
+        android:id="@+id/whistleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to start listening to whistles"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+    <Button
+        android:text="Rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/StartRecordForFingerprint"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_alignBaseline="@+id/whistleButton"
+        android:layout_alignBottom="@+id/whistleButton"
+        android:layout_toLeftOf="@+id/whistleButton"
+        android:layout_toStartOf="@+id/whistleButton" />
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:id="@+id/graph"
+        android:layout_below="@+id/stopButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

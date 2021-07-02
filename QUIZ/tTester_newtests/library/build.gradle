@@ -1,0 +1,31 @@
+apply plugin: 'android-library'
+
+android {
+    buildToolsVersion '28.0.3'
+    compileSdkVersion 22
+
+    defaultConfig {
+        minSdkVersion 7
+    }
+}
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        //classpath 'com.android.tools.build:gradle:3.2'
+    }
+}
+/*
+android.libraryVariants.all { variant ->
+    def name = variant.buildType.name
+
+    if (name.equals(BuilderConstants.DEBUG)) {
+        return; // Skip debug builds.
+    }
+    def task = project.tasks.create "jar${name.capitalize()}", Jar
+    task.dependsOn variant.javaCompile
+    task.from variant.javaCompile.destinationDir
+    artifacts.add('archives', task);
+}
+*/

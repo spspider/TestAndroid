@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TaskerCMProfile</string>
+    <string name="plugin_name">CM Profile</string>
+    <string name="spinner_hint">Select Profile</string>
+    <string name="no_profiles">No Profiles</string>
+    <string name="profile_label">Profile</string>
+</resources>

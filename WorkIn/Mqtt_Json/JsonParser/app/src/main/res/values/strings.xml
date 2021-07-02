@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JsonParser</string>
+    <string name="item1">Item1</string>
+    <string name="item2">Item2</string>
+    <string name="item3">Item3</string>
+    <string name="item4">Item4</string>
+    <string name="json_str">{"id":"2","page":"Kitchen","descr":"Dimmer","widget":"range","topic":"/IoTmanager/dev01-kitchen/dim-light","style":"range-calm","badge":"badge-assertive","leftIcon":"ion-ios-rainy-outline","rightIcon":"ion-ios-rainy"}</string>
+</resources>

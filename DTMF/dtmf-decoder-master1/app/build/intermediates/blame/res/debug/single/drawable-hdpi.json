@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_info.png",
+        "source": "D:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_info.png"
+    },
+    {
+        "merged": "D:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_history.png",
+        "source": "D:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_history.png"
+    },
+    {
+        "merged": "D:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_send.png",
+        "source": "D:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_send.png"
+    },
+    {
+        "merged": "D:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "D:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    }
+]

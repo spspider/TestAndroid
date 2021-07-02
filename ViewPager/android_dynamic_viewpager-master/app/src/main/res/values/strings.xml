@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">DynamicViewpager</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="mcu_p1">
+        <item>Iron Man</item>
+        <item>The Incredible Hulk</item>
+        <item>Iron Man 2</item>
+        <item>Thor</item>
+        <item>Captain America: The First Avenger</item>
+        <item>The Avengers</item>
+    </string-array>
+
+    <string-array name="mcu_p2">
+        <item>Iron Man 3</item>
+        <item>Thor: The Dark World</item>
+        <item>Captain America: The Winter Soldier</item>
+        <item>Guardians of the Galaxy</item>
+        <item>Avengers: Age of Ultron</item>
+        <item>Ant-Man</item>
+    </string-array>
+
+    <string-array name="mcu_p3">
+        <item>Captain America: Civil War</item>
+        <item>Doctor Strange</item>
+        <item>Guardians of the Galaxy Vol. 2</item>
+        <item>Spider-Man: Homecoming</item>
+        <item>Thor: Ragnarok</item>
+        <item>Black Panther</item>
+        <item>Avengers: Infinity War – Part 1</item>
+        <item>Ant-Man and the Wasp</item>
+        <item>Captain Marvel</item>
+        <item>Avengers: Infinity War – Part 2</item>
+    </string-array>
+
+    <string-array name="mcu_p4">
+        <item>Inhumans</item>
+        <item>Guardians of the Galaxy Vol. 3</item>
+        <item>Untitled 1</item>
+        <item>Untitled 2</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

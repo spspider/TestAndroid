@@ -1,0 +1,4 @@
+#Mon Oct 08 11:52:15 EEST 2018
+base.0=D\:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\apphance_63ba85fc891e45a31888ead810a10e5968284ffc
+renamed.0=classes.dex
+file.0=D\:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\apphance_63ba85fc891e45a31888ead810a10e5968284ffc\\classes.dex

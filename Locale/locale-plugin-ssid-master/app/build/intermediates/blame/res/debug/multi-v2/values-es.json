@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
+            "map": [
+                {
+                    "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\values-es\\strings_plugin.xml",
+                    "from": {
+                        "startLines": "5,8,7,6,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "293,707,498,352,221",
+                        "endColumns": "58,110,135,145,71",
+                        "endOffsets": "347,813,629,493,288"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,114,225,361,507",
+                        "endColumns": "58,110,135,145,71",
+                        "endOffsets": "109,220,356,502,574"
+                    }
+                }
+            ]
+        }
+    ]
+}

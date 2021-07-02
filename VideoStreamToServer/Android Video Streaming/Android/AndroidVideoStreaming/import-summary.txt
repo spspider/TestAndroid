@@ -1,0 +1,306 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+d:\Temp\Test_android\VideoStreamToServer\Android Video Streaming\Android\AndroidVideoStreaming
+                                                -     -                                       
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AndroidVideoStreaming:
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\workspace.xml
+* androidVideoStreaming\
+* androidVideoStreaming\build.gradle
+* androidVideoStreaming\src\
+* androidVideoStreaming\src\main\
+* androidVideoStreaming\src\main\AndroidManifest.xml
+* androidVideoStreaming\src\main\java\
+* androidVideoStreaming\src\main\java\info\
+* androidVideoStreaming\src\main\java\info\androidhive\
+* androidVideoStreaming\src\main\java\info\androidhive\androidvideostreaming\
+* androidVideoStreaming\src\main\java\info\androidhive\androidvideostreaming\AppConfig.java
+* androidVideoStreaming\src\main\java\info\androidhive\androidvideostreaming\MainActivity.java
+* androidVideoStreaming\src\main\res\
+* androidVideoStreaming\src\main\res\drawable-hdpi\
+* androidVideoStreaming\src\main\res\drawable-hdpi\ic_launcher.png
+* androidVideoStreaming\src\main\res\drawable-mdpi\
+* androidVideoStreaming\src\main\res\drawable-mdpi\ic_launcher.png
+* androidVideoStreaming\src\main\res\drawable-xhdpi\
+* androidVideoStreaming\src\main\res\drawable-xhdpi\ic_launcher.png
+* androidVideoStreaming\src\main\res\drawable-xxhdpi\
+* androidVideoStreaming\src\main\res\drawable-xxhdpi\ic_launcher.png
+* androidVideoStreaming\src\main\res\drawable-xxhdpi\ico_mute.png
+* androidVideoStreaming\src\main\res\drawable-xxhdpi\ico_pause.png
+* androidVideoStreaming\src\main\res\drawable-xxhdpi\ico_play.png
+* androidVideoStreaming\src\main\res\drawable-xxhdpi\ico_screen_resolution.png
+* androidVideoStreaming\src\main\res\drawable-xxhdpi\ico_settings.png
+* androidVideoStreaming\src\main\res\drawable-xxhdpi\ico_unmute.png
+* androidVideoStreaming\src\main\res\drawable\
+* androidVideoStreaming\src\main\res\drawable\bg.xml
+* androidVideoStreaming\src\main\res\drawable\ico_mute.png
+* androidVideoStreaming\src\main\res\drawable\ico_pause.png
+* androidVideoStreaming\src\main\res\drawable\ico_play.png
+* androidVideoStreaming\src\main\res\drawable\ico_screen_resolution.png
+* androidVideoStreaming\src\main\res\drawable\ico_settings.png
+* androidVideoStreaming\src\main\res\drawable\ico_stop.png
+* androidVideoStreaming\src\main\res\drawable\ico_unmute.png
+* androidVideoStreaming\src\main\res\layout\
+* androidVideoStreaming\src\main\res\layout\activity_main.xml
+* androidVideoStreaming\src\main\res\menu\
+* androidVideoStreaming\src\main\res\menu\main.xml
+* androidVideoStreaming\src\main\res\values-sw600dp\
+* androidVideoStreaming\src\main\res\values-sw600dp\dimens.xml
+* androidVideoStreaming\src\main\res\values-sw720dp-land\
+* androidVideoStreaming\src\main\res\values-sw720dp-land\dimens.xml
+* androidVideoStreaming\src\main\res\values-v11\
+* androidVideoStreaming\src\main\res\values-v11\styles.xml
+* androidVideoStreaming\src\main\res\values-v14\
+* androidVideoStreaming\src\main\res\values-v14\styles.xml
+* androidVideoStreaming\src\main\res\values\
+* androidVideoStreaming\src\main\res\values\colors.xml
+* androidVideoStreaming\src\main\res\values\dimens.xml
+* androidVideoStreaming\src\main\res\values\strings.xml
+* androidVideoStreaming\src\main\res\values\styles.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* libstreaming\
+* libstreaming\build.gradle
+* libstreaming\src\
+* libstreaming\src\main\
+* libstreaming\src\main\AndroidManifest.xml
+* libstreaming\src\main\java\
+* libstreaming\src\main\java\net\
+* libstreaming\src\main\java\net\majorkernelpanic\
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\MediaStream.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\Session.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\SessionBuilder.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\Stream.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\audio\
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\audio\AACStream.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\audio\AMRNBStream.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\audio\AudioQuality.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\audio\AudioStream.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\exceptions\
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\exceptions\CameraInUseException.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\exceptions\ConfNotSupportedException.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\exceptions\InvalidSurfaceException.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\exceptions\StorageUnavailableException.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\gl\
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\gl\SurfaceManager.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\gl\SurfaceView.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\gl\TextureManager.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\hw\
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\hw\CodecManager.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\hw\EncoderDebugger.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\hw\NV21Convertor.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\mp4\
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\mp4\MP4Config.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\mp4\MP4Parser.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtcp\
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtcp\SenderReport.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtp\
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtp\AACADTSPacketizer.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtp\AACLATMPacketizer.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtp\AMRNBPacketizer.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtp\AbstractPacketizer.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtp\H263Packetizer.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtp\H264Packetizer.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtp\MediaCodecInputStream.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtp\RtpSocket.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtsp\
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtsp\RtcpDeinterleaver.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtsp\RtspClient.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtsp\RtspServer.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\rtsp\UriParser.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\video\
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\video\CodecManager.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\video\H263Stream.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\video\H264Stream.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\video\VideoQuality.java
+* libstreaming\src\main\java\net\majorkernelpanic\streaming\video\VideoStream.java
+* proguard-project.txt
+* settings.gradle
+From libstreaming:
+* .gitignore
+* LICENSE
+* README.md
+* build.xml
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-all.html
+* doc\index.html
+* doc\net\
+* doc\net\majorkernelpanic\
+* doc\net\majorkernelpanic\streaming\
+* doc\net\majorkernelpanic\streaming\MediaStream.html
+* doc\net\majorkernelpanic\streaming\Session.Callback.html
+* doc\net\majorkernelpanic\streaming\Session.html
+* doc\net\majorkernelpanic\streaming\SessionBuilder.html
+* doc\net\majorkernelpanic\streaming\Stream.html
+* doc\net\majorkernelpanic\streaming\audio\
+* doc\net\majorkernelpanic\streaming\audio\AACStream.html
+* doc\net\majorkernelpanic\streaming\audio\AMRNBStream.html
+* doc\net\majorkernelpanic\streaming\audio\AudioQuality.html
+* doc\net\majorkernelpanic\streaming\audio\AudioStream.html
+* doc\net\majorkernelpanic\streaming\audio\package-frame.html
+* doc\net\majorkernelpanic\streaming\audio\package-summary.html
+* doc\net\majorkernelpanic\streaming\audio\package-tree.html
+* doc\net\majorkernelpanic\streaming\exceptions\
+* doc\net\majorkernelpanic\streaming\exceptions\CameraInUseException.html
+* doc\net\majorkernelpanic\streaming\exceptions\ConfNotSupportedException.html
+* doc\net\majorkernelpanic\streaming\exceptions\InvalidSurfaceException.html
+* doc\net\majorkernelpanic\streaming\exceptions\StorageUnavailableException.html
+* doc\net\majorkernelpanic\streaming\exceptions\package-frame.html
+* doc\net\majorkernelpanic\streaming\exceptions\package-summary.html
+* doc\net\majorkernelpanic\streaming\exceptions\package-tree.html
+* doc\net\majorkernelpanic\streaming\gl\
+* doc\net\majorkernelpanic\streaming\gl\SurfaceManager.html
+* doc\net\majorkernelpanic\streaming\gl\SurfaceView.ViewAspectRatioMeasurer.html
+* doc\net\majorkernelpanic\streaming\gl\SurfaceView.html
+* doc\net\majorkernelpanic\streaming\gl\TextureManager.html
+* doc\net\majorkernelpanic\streaming\gl\package-frame.html
+* doc\net\majorkernelpanic\streaming\gl\package-summary.html
+* doc\net\majorkernelpanic\streaming\gl\package-tree.html
+* doc\net\majorkernelpanic\streaming\hw\
+* doc\net\majorkernelpanic\streaming\hw\CodecManager.html
+* doc\net\majorkernelpanic\streaming\hw\EncoderDebugger.html
+* doc\net\majorkernelpanic\streaming\hw\NV21Convertor.html
+* doc\net\majorkernelpanic\streaming\hw\package-frame.html
+* doc\net\majorkernelpanic\streaming\hw\package-summary.html
+* doc\net\majorkernelpanic\streaming\hw\package-tree.html
+* doc\net\majorkernelpanic\streaming\mp4\
+* doc\net\majorkernelpanic\streaming\mp4\MP4Config.html
+* doc\net\majorkernelpanic\streaming\mp4\MP4Parser.html
+* doc\net\majorkernelpanic\streaming\mp4\package-frame.html
+* doc\net\majorkernelpanic\streaming\mp4\package-summary.html
+* doc\net\majorkernelpanic\streaming\mp4\package-tree.html
+* doc\net\majorkernelpanic\streaming\package-frame.html
+* doc\net\majorkernelpanic\streaming\package-summary.html
+* doc\net\majorkernelpanic\streaming\package-tree.html
+* doc\net\majorkernelpanic\streaming\rtcp\
+* doc\net\majorkernelpanic\streaming\rtcp\SenderReport.html
+* doc\net\majorkernelpanic\streaming\rtcp\package-frame.html
+* doc\net\majorkernelpanic\streaming\rtcp\package-summary.html
+* doc\net\majorkernelpanic\streaming\rtcp\package-tree.html
+* doc\net\majorkernelpanic\streaming\rtp\
+* doc\net\majorkernelpanic\streaming\rtp\AACADTSPacketizer.html
+* doc\net\majorkernelpanic\streaming\rtp\AACLATMPacketizer.html
+* doc\net\majorkernelpanic\streaming\rtp\AMRNBPacketizer.html
+* doc\net\majorkernelpanic\streaming\rtp\AbstractPacketizer.html
+* doc\net\majorkernelpanic\streaming\rtp\H263Packetizer.html
+* doc\net\majorkernelpanic\streaming\rtp\H264Packetizer.html
+* doc\net\majorkernelpanic\streaming\rtp\MediaCodecInputStream.html
+* doc\net\majorkernelpanic\streaming\rtp\RtpSocket.html
+* doc\net\majorkernelpanic\streaming\rtp\package-frame.html
+* doc\net\majorkernelpanic\streaming\rtp\package-summary.html
+* doc\net\majorkernelpanic\streaming\rtp\package-tree.html
+* doc\net\majorkernelpanic\streaming\rtsp\
+* doc\net\majorkernelpanic\streaming\rtsp\RtspClient.Callback.html
+* doc\net\majorkernelpanic\streaming\rtsp\RtspClient.html
+* doc\net\majorkernelpanic\streaming\rtsp\RtspServer.CallbackListener.html
+* doc\net\majorkernelpanic\streaming\rtsp\RtspServer.LocalBinder.html
+* doc\net\majorkernelpanic\streaming\rtsp\RtspServer.html
+* doc\net\majorkernelpanic\streaming\rtsp\UriParser.html
+* doc\net\majorkernelpanic\streaming\rtsp\package-frame.html
+* doc\net\majorkernelpanic\streaming\rtsp\package-summary.html
+* doc\net\majorkernelpanic\streaming\rtsp\package-tree.html
+* doc\net\majorkernelpanic\streaming\video\
+* doc\net\majorkernelpanic\streaming\video\CodecManager.html
+* doc\net\majorkernelpanic\streaming\video\H263Stream.html
+* doc\net\majorkernelpanic\streaming\video\H264Stream.html
+* doc\net\majorkernelpanic\streaming\video\VideoQuality.html
+* doc\net\majorkernelpanic\streaming\video\VideoStream.html
+* doc\net\majorkernelpanic\streaming\video\package-frame.html
+* doc\net\majorkernelpanic\streaming\video\package-summary.html
+* doc\net\majorkernelpanic\streaming\video\package-tree.html
+* doc\overview-frame.html
+* doc\overview-summary.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\resources\
+* doc\resources\background.gif
+* doc\resources\tab.gif
+* doc\resources\titlebar.gif
+* doc\resources\titlebar_end.gif
+* doc\serialized-form.html
+* doc\stylesheet.css
+* pom.xml
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In libstreaming:
+* AndroidManifest.xml => libstreaming\src\main\AndroidManifest.xml
+* assets\ => libstreaming\src\main\assets
+* res\ => libstreaming\src\main\res
+* src\ => libstreaming\src\main\java\
+In AndroidVideoStreaming:
+* AndroidManifest.xml => androidVideoStreaming\src\main\AndroidManifest.xml
+* assets\ => androidVideoStreaming\src\main\assets
+* res\ => androidVideoStreaming\src\main\res\
+* src\ => androidVideoStreaming\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

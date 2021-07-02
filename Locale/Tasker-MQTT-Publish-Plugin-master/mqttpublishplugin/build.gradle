@@ -1,0 +1,20 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId 'net.nosybore.mqttpublishplugin'
+        minSdkVersion 9
+        targetSdkVersion 28
+        versionCode 7
+        versionName '1.4.0'
+        resConfigs "en"
+    }
+}
+
+dependencies {
+    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.0.2'
+    implementation project(':locale')
+    implementation 'com.google.android.gms:play-services-base:8.4.0'
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_app.png.flat",
+        "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\drawable-mdpi\\icon_app.png"
+    },
+    {
+        "merged": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_plugin.png.flat",
+        "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\drawable-hdpi\\icon_plugin.png"
+    },
+    {
+        "merged": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_plugin.png.flat",
+        "source": "D:\\Temp\\Test_android\\Locale\\locale-plugin-ssid-master\\app\\src\\main\\res\\drawable-mdpi\\icon_plugin.png"
+    }
+]

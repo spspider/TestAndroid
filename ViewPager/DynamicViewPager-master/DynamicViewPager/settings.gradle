@@ -1,0 +1,2 @@
+include ':dynamicViewPagerLibrary'
+include ':dynamicViewPager'

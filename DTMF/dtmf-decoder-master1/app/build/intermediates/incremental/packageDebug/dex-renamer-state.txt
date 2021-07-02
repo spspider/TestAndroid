@@ -1,0 +1,7 @@
+#Mon Oct 08 20:35:39 EEST 2018
+base.0=D\:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_42070255d0692337858dd19aa6a8ff0312cec2cd
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e2707322113c6386bdb61c99730c08b78670dacd\\classes.dex
+base.1=D\:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e2707322113c6386bdb61c99730c08b78670dacd
+file.0=D\:\\Temp\\Test_android\\DTMF\\dtmf-decoder-master1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_42070255d0692337858dd19aa6a8ff0312cec2cd\\classes.dex

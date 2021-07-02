@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Locale HTTP Plug-in</string>
+    <string name="plugin_name">HTTP</string>
+    <string name="http">HTTP</string>
+    <string name="IP">ipadress</string>
+    <string name="http_navigate">trigger you device</string>
+    <string name="updateIP">Обновить IP</string>
+</resources>

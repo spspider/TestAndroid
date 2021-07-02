@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <TextView
+        android:id="@+id/idlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID : " />
+ 
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/idlabel" />
+ 
+    <TextView
+        android:id="@+id/valuelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idlabel"
+        android:text="VALUE : " />
+ 
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id"
+        android:layout_toRightOf="@+id/valuelabel" />
+ 
+    <TextView
+        android:id="@+id/functionlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valuelabel"
+        android:text="FUNCTION : " />
+ 
+    <TextView
+        android:id="@+id/function"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/value"
+        android:layout_toRightOf="@+id/functionlabel" />
+ 
+</RelativeLayout>

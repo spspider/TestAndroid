@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.greenesse.mytracksplugin"
+    android:versionCode="7"
+    android:versionName="1.0.5.1" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="28" />
+
+    <!-- TODO: Do I really need READ_TRACK_DATA? It fixes a crash, but I wasn't expecting to need it. -->
+    <uses-permission android:name="com.google.android.apps.mytracks.WRITE_TRACK_DATA" />
+    <uses-permission android:name="com.google.android.apps.mytracks.READ_TRACK_DATA" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true" >
+
+        <!--
+             This service is only ever used by FireReceiver, but is, unfortunately
+		     required because BroadcastReceivers cannot do any async activities
+        -->
+        <service
+            android:name="com.greenesse.mytracksplugin.BroadcastExecutiveService"
+            android:exported="false" />
+
+        <!-- Listen for the "edit" action -->
+        <activity
+            android:name="com.greenesse.mytracksplugin.EditActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/setting_name"
+            android:theme="@style/NoActionBar" >
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+
+        <!-- Listen for the "fire" action -->
+        <receiver android:name="com.greenesse.mytracksplugin.FireReceiver" >
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.greenesse.mytracksplugin.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

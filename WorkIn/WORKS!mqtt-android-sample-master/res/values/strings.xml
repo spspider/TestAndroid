@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MQTTSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="port1">port1</string>
+    <string name="login">spspider</string>
+    <string name="password">5506487</string>
+
+</resources>

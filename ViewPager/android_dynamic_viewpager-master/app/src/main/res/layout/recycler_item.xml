@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/movie"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/recycler_layout_height"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/relative_layout"
+        android:focusable="true"
+        android:clickable="true"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="@dimen/recycler_layout_height">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/title"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/phase"
+            android:layout_toStartOf="@+id/phase" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Medium Text"
+            android:id="@+id/phase"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/relative_layout_update"
+        android:focusable="true"
+        android:clickable="true"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="@dimen/recycler_layout_height">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linear_phases"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/recycler_layout_height"
+            android:focusable="true"
+            android:clickable="true"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1"
+            android:padding="16dp"
+            android:id="@+id/p1"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2"
+            android:padding="16dp"
+            android:id="@+id/p2"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3"
+            android:padding="16dp"
+            android:id="@+id/p3"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="4"
+            android:id="@+id/p4" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

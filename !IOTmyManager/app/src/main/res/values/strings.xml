@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">IOTmyManager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Настройки</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+    <string name="open_drawer">открыть</string>
+    <string name="close_drawer">закрыть</string>
+    <string name="menu1">Датчики</string>
+    <string name="menu2">Настройки</string>
+    <string name="menu3">Tab Count 3</string>
+    <string name="menu4">Tab Count 4</string>
+    <string name="pageError">404 This Page not have been displayed</string>
+    <string name="EnterServer">сервер</string>
+    <string name="InetPort">порт</string>
+    <string name="ButtonOk">Сохранить</string>
+    <string name="login">логин</string>
+    <string name="password">пароль</string>
+</resources>

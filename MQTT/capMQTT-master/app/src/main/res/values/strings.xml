@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">capMQTT</string>
+    <string name="title_section1">Conn</string>
+    <string name="title_section2">Devi</string>
+    <string name="title_section3">Scen</string>
+    <string name="action_settings">Settings</string>
+    <string name="message">Message</string>
+    <string name="topic">Topic</string>
+
+</resources>

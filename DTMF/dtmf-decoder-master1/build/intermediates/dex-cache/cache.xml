@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Temp\Test_android\DTMF\dtmf-decoder-master1\app\libs\apphance.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f436e68f2e7b6be75f9cacc94c25c04829bef2ee">
+        <dex dex="D:\Temp\Test_android\DTMF\dtmf-decoder-master1\app\build\intermediates\transforms\dex\debug\folders\1000\2\apphance_63ba85fc891e45a31888ead810a10e5968284ffc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Temp\Test_android\DTMF\dtmf-decoder-master1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b7baa735bce2fbfb1324086f97afbd9189060e0c">
+        <dex dex="D:\Temp\Test_android\DTMF\dtmf-decoder-master1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_42070255d0692337858dd19aa6a8ff0312cec2cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Temp\Test_android\DTMF\dtmf-decoder-master1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="D:\Temp\Test_android\DTMF\dtmf-decoder-master1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e2707322113c6386bdb61c99730c08b78670dacd\classes.dex" />
+    </item>
+
+</items>

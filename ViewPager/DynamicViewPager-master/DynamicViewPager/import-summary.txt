@@ -1,0 +1,157 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From DynamicViewPager:
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\workspace.xml
+* build.gradle
+* dynamicViewPagerLibrary\
+* dynamicViewPagerLibrary\build.gradle
+* dynamicViewPagerLibrary\src\
+* dynamicViewPagerLibrary\src\main\
+* dynamicViewPagerLibrary\src\main\AndroidManifest.xml
+* dynamicViewPagerLibrary\src\main\java\
+* dynamicViewPagerLibrary\src\main\java\de\
+* dynamicViewPagerLibrary\src\main\java\de\wackernagel\
+* dynamicViewPagerLibrary\src\main\java\de\wackernagel\android\
+* dynamicViewPagerLibrary\src\main\java\de\wackernagel\android\dynamicviewpager\
+* dynamicViewPagerLibrary\src\main\java\de\wackernagel\android\dynamicviewpager\Lockable.java
+* dynamicViewPagerLibrary\src\main\java\de\wackernagel\android\dynamicviewpager\adapter\
+* dynamicViewPagerLibrary\src\main\java\de\wackernagel\android\dynamicviewpager\adapter\DynamicTabFragmentPagerAdapter.java
+* dynamicViewPagerLibrary\src\main\java\de\wackernagel\android\dynamicviewpager\view\
+* dynamicViewPagerLibrary\src\main\java\de\wackernagel\android\dynamicviewpager\view\LockableViewPager.java
+* dynamicViewPagerLibrary\src\main\res\
+* dynamicViewPagerLibrary\src\main\res\drawable-hdpi\
+* dynamicViewPagerLibrary\src\main\res\drawable-hdpi\ic_launcher.png
+* dynamicViewPagerLibrary\src\main\res\drawable-mdpi\
+* dynamicViewPagerLibrary\src\main\res\drawable-mdpi\ic_launcher.png
+* dynamicViewPagerLibrary\src\main\res\drawable-xhdpi\
+* dynamicViewPagerLibrary\src\main\res\drawable-xhdpi\ic_launcher.png
+* dynamicViewPagerLibrary\src\main\res\values-v11\
+* dynamicViewPagerLibrary\src\main\res\values-v11\styles.xml
+* dynamicViewPagerLibrary\src\main\res\values-v14\
+* dynamicViewPagerLibrary\src\main\res\values-v14\styles.xml
+* dynamicViewPagerLibrary\src\main\res\values\
+* dynamicViewPagerLibrary\src\main\res\values\strings.xml
+* dynamicViewPagerLibrary\src\main\res\values\styles.xml
+* dynamicViewPager\
+* dynamicViewPager\build.gradle
+* dynamicViewPager\src\
+* dynamicViewPager\src\main\
+* dynamicViewPager\src\main\AndroidManifest.xml
+* dynamicViewPager\src\main\java\
+* dynamicViewPager\src\main\java\de\
+* dynamicViewPager\src\main\java\de\wackernagel\
+* dynamicViewPager\src\main\java\de\wackernagel\dynamicviewpager\
+* dynamicViewPager\src\main\java\de\wackernagel\dynamicviewpager\MainActivity.java
+* dynamicViewPager\src\main\java\de\wackernagel\dynamicviewpager\SimpleFragment.java
+* dynamicViewPager\src\main\res\
+* dynamicViewPager\src\main\res\drawable-hdpi\
+* dynamicViewPager\src\main\res\drawable-hdpi\ic_launcher.png
+* dynamicViewPager\src\main\res\drawable-mdpi\
+* dynamicViewPager\src\main\res\drawable-mdpi\ic_launcher.png
+* dynamicViewPager\src\main\res\drawable-xhdpi\
+* dynamicViewPager\src\main\res\drawable-xhdpi\ic_launcher.png
+* dynamicViewPager\src\main\res\drawable-xxhdpi\
+* dynamicViewPager\src\main\res\drawable-xxhdpi\ic_launcher.png
+* dynamicViewPager\src\main\res\layout\
+* dynamicViewPager\src\main\res\layout\activity_main.xml
+* dynamicViewPager\src\main\res\layout\fragment_layout.xml
+* dynamicViewPager\src\main\res\menu\
+* dynamicViewPager\src\main\res\menu\main.xml
+* dynamicViewPager\src\main\res\values-sw600dp\
+* dynamicViewPager\src\main\res\values-sw600dp\dimens.xml
+* dynamicViewPager\src\main\res\values-sw720dp-land\
+* dynamicViewPager\src\main\res\values-sw720dp-land\dimens.xml
+* dynamicViewPager\src\main\res\values-v11\
+* dynamicViewPager\src\main\res\values-v11\styles.xml
+* dynamicViewPager\src\main\res\values-v14\
+* dynamicViewPager\src\main\res\values-v14\styles.xml
+* dynamicViewPager\src\main\res\values\
+* dynamicViewPager\src\main\res\values\dimens.xml
+* dynamicViewPager\src\main\res\values\strings.xml
+* dynamicViewPager\src\main\res\values\styles.xml
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+From DynamicViewPagerLibrary:
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat-v7 => [com.android.support:appcompat-v7:18.0.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In DynamicViewPagerLibrary:
+* AndroidManifest.xml => dynamicViewPagerLibrary\src\main\AndroidManifest.xml
+* res\ => dynamicViewPagerLibrary\src\main\res\
+* src\ => dynamicViewPagerLibrary\src\main\java\
+In DynamicViewPager:
+* AndroidManifest.xml => dynamicViewPager\src\main\AndroidManifest.xml
+* res\ => dynamicViewPager\src\main\res\
+* src\ => dynamicViewPager\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

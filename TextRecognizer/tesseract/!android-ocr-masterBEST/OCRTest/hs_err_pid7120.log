@@ -1,0 +1,201 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x000000005bceb947, pid=7120, tid=0x0000000000001ab4
+#
+# JRE version:  (8.0_112-b06) (build )
+# Java VM: OpenJDK 64-Bit Server VM (25.112-b06 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# V  [jvm.dll+0x1eb947]
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000226e000):  JavaThread "main" [_thread_in_vm, id=6836, stack(0x00000000022a0000,0x00000000023a0000)]
+
+siginfo: ExceptionCode=0xc0000005, writing address 0x0000000002397a10
+
+Registers:
+RAX=0x0000000002397a10, RBX=0x0000000000000007, RCX=0x0000000000006000, RDX=0x000000000000000e
+RSP=0x000000000239da10, RBP=0x0000000000000000, RSI=0x000000000239da10, RDI=0x0000000000000007
+R8 =0x000000000000000e, R9 =0x0000000002187910, R10=0x0000000054e9b888, R11=0x00000000022aa150
+R12=0x0000000002187910, R13=0x000000000226e000, R14=0x000000000239db40, R15=0x0000000054e9b888
+RIP=0x000000005bceb947, EFLAGS=0x0000000000010202
+
+Top of Stack: (sp=0x000000000239da10)
+0x000000000239da10:   000000000226e640 000000000226e9f8
+0x000000000239da20:   000000000226e000 0000000002187910
+0x000000000239da30:   00000000ffffffff 000000005bcec877
+0x000000000239da40:   000000000239db40 0000000054e9b888
+0x000000000239da50:   000000000226e000 0000000000000015
+0x000000000239da60:   00000000000000a8 0000000000000000
+0x000000000239da70:   0000000000000015 000000005bc02094
+0x000000000239da80:   0000000054e9b888 000000000226e000
+0x000000000239da90:   0000000002792f20 0000000054e9a728
+0x000000000239daa0:   0000000000000000 0000000054dd0088
+0x000000000239dab0:   0000001400000000 0000000000000000
+0x000000000239dac0:   0000000000000007 0000000054e9b888
+0x000000000239dad0:   000000000226e000 000000005bc03822
+0x000000000239dae0:   0000000000000000 000000000226e620
+0x000000000239daf0:   000000000239dc88 0000000000000005
+0x000000000239db00:   00000000ffffffff 0000000054e9ae01 
+
+Instructions: (pc=0x000000005bceb947)
+0x000000005bceb927:   48 89 6c 24 30 33 ed 66 90 e8 cb b8 07 00 ff c3
+0x000000005bceb937:   48 63 c8 48 8b c6 48 0f af cf 48 ff c7 48 2b c1
+0x000000005bceb947:   89 28 48 63 c3 48 3b 05 45 2c 57 00 7e db 48 8b
+0x000000005bceb957:   6c 24 30 48 8b 5c 24 38 48 8b 74 24 40 48 83 c4 
+
+
+Register to memory mapping:
+
+RAX=0x0000000002397a10 is pointing into the stack for thread: 0x000000000226e000
+RBX=0x0000000000000007 is an unknown value
+RCX=0x0000000000006000 is an unknown value
+RDX=0x000000000000000e is an unknown value
+RSP=0x000000000239da10 is pointing into the stack for thread: 0x000000000226e000
+RBP=0x0000000000000000 is an unknown value
+RSI=0x000000000239da10 is pointing into the stack for thread: 0x000000000226e000
+RDI=0x0000000000000007 is an unknown value
+R8 =0x000000000000000e is an unknown value
+R9 =0x0000000002187910 is an unknown value
+R10={method} {0x0000000054e9b890} '<clinit>' '()V' in 'sun/reflect/ReflectionFactory'
+R11=0x00000000022aa150 is pointing into the stack for thread: 0x000000000226e000
+R12=0x0000000002187910 is an unknown value
+R13=0x000000000226e000 is a thread
+R14=0x000000000239db40 is pointing into the stack for thread: 0x000000000226e000
+R15={method} {0x0000000054e9b890} '<clinit>' '()V' in 'sun/reflect/ReflectionFactory'
+
+
+Stack: [0x00000000022a0000,0x00000000023a0000],  sp=0x000000000239da10,  free space=1014k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  sun.reflect.ReflectionFactory$GetReflectionFactoryAction.run()Lsun/reflect/ReflectionFactory;+0
+j  sun.reflect.ReflectionFactory$GetReflectionFactoryAction.run()Ljava/lang/Object;+1
+v  ~StubRoutines::call_stub
+j  java.security.AccessController.doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object;+0
+j  java.lang.reflect.AccessibleObject.<clinit>()V+19
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+=>0x000000000226e000 JavaThread "main" [_thread_in_vm, id=6836, stack(0x00000000022a0000,0x00000000023a0000)]
+
+Other Threads:
+  0x0000000056712000 VMThread [stack: 0x0000000011fd0000,0x00000000120d0000] [id=5540]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 18944K, used 327K [0x00000000eab00000, 0x00000000ec000000, 0x0000000100000000)
+  eden space 16384K, 2% used [0x00000000eab00000,0x00000000eab51ec8,0x00000000ebb00000)
+  from space 2560K, 0% used [0x00000000ebd80000,0x00000000ebd80000,0x00000000ec000000)
+  to   space 2560K, 0% used [0x00000000ebb00000,0x00000000ebb00000,0x00000000ebd80000)
+ ParOldGen       total 44032K, used 0K [0x00000000c0000000, 0x00000000c2b00000, 0x00000000eab00000)
+  object space 44032K, 0% used [0x00000000c0000000,0x00000000c0000000,0x00000000c2b00000)
+ Metaspace       used 906K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 90K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x0000000011b40000,0x0000000011d50000] byte_map_base: 0x0000000011540000
+
+Marking Bits: (ParMarkBitMap*) 0x000000005c2c18f0
+ Begin Bits: [0x0000000012bd0000, 0x0000000013bd0000)
+ End Bits:   [0x0000000013bd0000, 0x0000000014bd0000)
+
+Polling page: 0x0000000000130000
+
+CodeCache: size=245760Kb used=395Kb max_used=395Kb free=245364Kb
+ bounds [0x0000000002780000, 0x00000000029f0000, 0x0000000011780000]
+ total_blobs=86 nmethods=0 adapters=62
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.174 loading class java/util/RandomAccess done
+Event: 0.174 loading class java/util/AbstractList
+Event: 0.175 loading class java/util/AbstractCollection
+Event: 0.175 loading class java/util/AbstractCollection done
+Event: 0.175 loading class java/util/AbstractList done
+Event: 0.175 loading class java/util/Vector done
+Event: 0.175 loading class java/util/Stack
+Event: 0.175 loading class java/util/Stack done
+Event: 0.175 loading class sun/reflect/ReflectionFactory
+Event: 0.175 loading class sun/reflect/ReflectionFactory done
+
+
+Dynamic libraries:
+0x000000013fd90000 - 0x000000013fdc1000 	D:\Program_files\AndroidStudio\Studio\jre\bin\java.exe
+0x0000000077440000 - 0x00000000775e9000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077220000 - 0x000000007733f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd2b0000 - 0x000007fefd31c000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefe370000 - 0x000007fefe44b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefe1a0000 - 0x000007fefe23f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefe450000 - 0x000007fefe46f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefe7e0000 - 0x000007fefe90d000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077340000 - 0x000000007743a000 	C:\Windows\system32\USER32.dll
+0x000007fefd610000 - 0x000007fefd677000 	C:\Windows\system32\GDI32.dll
+0x000007fefe5f0000 - 0x000007fefe5fe000 	C:\Windows\system32\LPK.dll
+0x000007fefd720000 - 0x000007fefd7e9000 	C:\Windows\system32\USP10.dll
+0x000007fefbc90000 - 0x000007fefbe84000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007feff6d0000 - 0x000007feff741000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefe910000 - 0x000007fefe93e000 	C:\Windows\system32\IMM32.DLL
+0x000007fefe4d0000 - 0x000007fefe5d9000 	C:\Windows\system32\MSCTF.dll
+0x0000000066330000 - 0x0000000066402000 	D:\Program_files\AndroidStudio\Studio\jre\jre\bin\msvcr100.dll
+0x000000005bb00000 - 0x000000005c33c000 	D:\Program_files\AndroidStudio\Studio\jre\jre\bin\server\jvm.dll
+0x000007fef1a90000 - 0x000007fef1a99000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefe320000 - 0x000007fefe36d000 	C:\Windows\system32\WS2_32.dll
+0x000007fefe5e0000 - 0x000007fefe5e8000 	C:\Windows\system32\NSI.dll
+0x000007fefa1a0000 - 0x000007fefa1db000 	C:\Windows\system32\WINMM.dll
+0x000007fefc320000 - 0x000007fefc32c000 	C:\Windows\system32\VERSION.dll
+0x0000000077600000 - 0x0000000077607000 	C:\Windows\system32\PSAPI.DLL
+0x000007fefb9f0000 - 0x000007fefb9ff000 	D:\Program_files\AndroidStudio\Studio\jre\jre\bin\verify.dll
+0x000007fef63d0000 - 0x000007fef63f9000 	D:\Program_files\AndroidStudio\Studio\jre\jre\bin\java.dll
+0x000007fefb9d0000 - 0x000007fefb9e6000 	D:\Program_files\AndroidStudio\Studio\jre\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Djava.awt.headless=true -Xmx1024M -Dfile.encoding=windows-1251 -Duser.country=RU -Duser.language=ru -Duser.variant 
+java_command: com.android.dx.command.Main --dex --num-threads=4 --output D:\Temp\Test_android\TextRecognizer\tesseract\!android-ocr-masterBEST\OCRTest\build\intermediates\pre-dexed\debug\google-api-translate-java-0.98-mod2_5a398301a3261e6c0ac773ea8f43039b117a354c.jar D:\Temp\Test_android\TextRecognizer\tesseract\!android-ocr-masterBEST\OCRTest\libs\google-api-translate-java-0.98-mod2.jar
+java_class_path (initial): D:\Program_files\AndroidStudio\SDK\build-tools\25.0.2\lib\dx.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;c:\Android+SDK+Platform+Tools\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;c:\adb\Android+SDK+Platform+Tools\
+USERNAME=tanja
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 21 Model 1 Stepping 2, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 (6.1.7601.18409)
+
+CPU:total 8 (8 cores per cpu, 1 threads per core) family 21 model 1 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, mmxext, 3dnowpref, lzcnt, sse4a, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 4191800k(349352k free), swap 6287088k(4860k free)
+
+vm_info: OpenJDK 64-Bit Server VM (25.112-b06) for windows-amd64 JRE (1.8.0_112-release-b06), built on Dec  8 2016 00:54:26 by "builder" with MS VC++ 10.0 (VS2010)
+
+time: Fri Apr 21 21:22:22 2017
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

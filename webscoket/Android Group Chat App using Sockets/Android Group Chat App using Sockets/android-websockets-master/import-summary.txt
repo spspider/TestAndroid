@@ -1,0 +1,110 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+d:\Temp\Test_android\AndroidHive\Android Group Chat App using Sockets\Android Group Chat App using Sockets\android-websockets-master
+                                        -     -    -   -     -               -     -    -   -     -                                 
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .gitignore
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\workspace.xml
+* README.md
+* android-websockets.iml
+* ant.properties
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\codebutler\
+* app\src\main\java\com\codebutler\android_websockets\
+* app\src\main\java\com\codebutler\android_websockets\HybiParser.java
+* app\src\main\java\com\codebutler\android_websockets\WebSocketClient.java
+* app\src\main\java\com\koushikdutta\
+* app\src\main\java\com\koushikdutta\async\
+* app\src\main\java\com\koushikdutta\async\http\
+* app\src\main\java\com\koushikdutta\async\http\socketio\
+* app\src\main\java\com\koushikdutta\async\http\socketio\Acknowledge.java
+* app\src\main\java\com\koushikdutta\async\http\socketio\ConnectCallback.java
+* app\src\main\java\com\koushikdutta\async\http\socketio\DisconnectCallback.java
+* app\src\main\java\com\koushikdutta\async\http\socketio\ErrorCallback.java
+* app\src\main\java\com\koushikdutta\async\http\socketio\EventCallback.java
+* app\src\main\java\com\koushikdutta\async\http\socketio\EventEmitter.java
+* app\src\main\java\com\koushikdutta\async\http\socketio\JSONCallback.java
+* app\src\main\java\com\koushikdutta\async\http\socketio\ReconnectCallback.java
+* app\src\main\java\com\koushikdutta\async\http\socketio\SocketIOClient.java
+* app\src\main\java\com\koushikdutta\async\http\socketio\SocketIOConnection.java
+* app\src\main\java\com\koushikdutta\async\http\socketio\StringCallback.java
+* app\src\main\java\com\koushikdutta\async\util\
+* app\src\main\java\com\koushikdutta\async\util\HashList.java
+* app\src\main\java\com\koushikdutta\http\
+* app\src\main\java\com\koushikdutta\http\AsyncHttpClient.java
+* app\src\main\resources\
+* app\src\main\resources\.DS_Store
+* app\src\main\resources\com\
+* app\src\main\resources\com\.DS_Store
+* app\src\main\resources\com\codebutler\
+* app\src\main\resources\com\codebutler\.DS_Store
+* app\src\main\resources\com\codebutler\android_websockets\
+* app\src\main\resources\com\codebutler\android_websockets\.DS_Store
+* app\src\main\resources\com\koushikdutta\
+* app\src\main\resources\com\koushikdutta\.DS_Store
+* build.gradle
+* build.xml
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* proguard-project.txt
+* settings.gradle
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res
+* src\ => app\src\main\java\
+* src\.DS_Store => app\src\main\resources\.DS_Store
+* src\com\.DS_Store => app\src\main\resources\com\.DS_Store
+* src\com\codebutler\.DS_Store => app\src\main\resources\com\codebutler\.DS_Store
+* src\com\codebutler\android_websockets\.DS_Store => app\src\main\resources\com\codebutler\android_websockets\.DS_Store
+* src\com\koushikdutta\.DS_Store => app\src\main\resources\com\koushikdutta\.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
